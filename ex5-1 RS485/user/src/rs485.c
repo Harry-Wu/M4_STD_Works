@@ -1,9 +1,8 @@
 #include "rs485.h"	 
 #include "delay.h"
 
-#if EN_USART2_RX   		//如果使能了接收   	  
-//接收缓存区 	
-u8 RS485_RX_BUF[64];  	//接收缓冲,最大64个字节.
+#if EN_USART2_RX   		//如果使能了接收   	  	
+u8 RS485_RX_BUF[64];  	//接收缓冲区,最大64个字节.
 //接收到的数据长度
 //u8 RS485_RX_CNT=0;  
 u8 rec_sta2=0; //接收完成标志, rec_sta2=1表示接收完成

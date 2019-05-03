@@ -6,11 +6,17 @@
 *.ko
 *.obj
 *.elf
+*.crf
+*.sct
+*.iex
+*.axf
+*.lnp
 
 # Linker output
 *.ilk
 *.map
 *.exp
+*.lst
 
 # Precompiled Headers
 *.gch
@@ -41,6 +47,7 @@
 *.su
 *.idb
 *.pdb
+*.dbgconf
 
 # Kernel Module Compile Results
 *.mod*
@@ -50,3 +57,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# vscode folder and files
+.vscode
+
+# ctags files
+*.tags
+*.tags_sorted_by_file
+
+# Keil MDK project files
+*.uvguix.*
